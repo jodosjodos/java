@@ -11,7 +11,7 @@ public class HypotenuseCalculator {
         System.out.print("Enter side Y : ");
         double sideY = scanner.nextDouble();
 //        scanner.nextLine();
-        double sideZ = Math.sqrt(Math.pow(sideX,2)+ Math.pow(sideY,2));
-        System.out.println("The hypotenus of "+ sideX + "  and  " + sideY + "  is  " + sideZ);
+        double sideZ = Math.sqrt(Math.pow(sideX, 2) + Math.pow(sideY, 2));
+        System.out.println("The hypotenus of " + sideX + "  and  " + sideY + "  is  " + sideZ);
     }
 }
